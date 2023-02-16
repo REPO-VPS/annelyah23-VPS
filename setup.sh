@@ -122,7 +122,7 @@ apt install git curl -y >/dev/null 2>&1
 echo -e "[ ${green}INFO${NC} ] Installation file is ready to begin !"
 sleep 1
 
-if [ -f "/usr/local/etc/xray/domain" ]; then
+if [ -f "/root/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi

@@ -7,7 +7,7 @@
 # =========================================
 clear
 MYIP2=$(wget -qO- ipv4.icanhazip.com);
-domain=$(cat /usr/local/etc/xray/domain)
+domain=$(cat /root/domain)
 user=TRIAL-`echo $RANDOM | head -c4`
 uuid=$(cat /proc/sys/kernel/random/uuid)
 masaaktif=1

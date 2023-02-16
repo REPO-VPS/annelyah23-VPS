@@ -88,7 +88,7 @@ red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 PERMISSION
 
 clear
-domain=$(cat /xray/domain)
+domain=$(cat /root/domain)
 MYIP2=$(wget -qO- ipv4.icanhazip.com);
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"

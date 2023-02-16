@@ -83,7 +83,7 @@ PERMISSION() {
     fi
     BURIQ
 }
-domain=$(cat /xray/domain)
+domain=$(cat /root/domain)
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"

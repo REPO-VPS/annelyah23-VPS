@@ -13,18 +13,18 @@ orange='\e[0;33m'
 NC='\e[0m'
 rm -f /var/lib/crot-script/ipvps.conf
 rm -f /var/lib/premium-script/ipvps.conf
-rm -f /usr/local/etc/xray/domain
+rm -f /root/domain
 echo -e "Please Insert  Your Domain"
 read -p "Hostname / Domain: " host
 echo "IP=$host" >> /var/lib/crot-script/ipvps.conf
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
-echo "$host" > /usr/local/etc/xray/domain
+echo "$host" > /root/domain
 clear
 echo -e "Renew Certificate Started . . . ."
 echo start
 sleep 1
 source /var/lib/premium-script/ipvps.conf
-domain=$(cat /usr/local/etc/xray/domain)
+domain=$(cat /root/domain)
 systemctl stop nginx
 systemctl stop xray.service
 systemctl stop xray@none.service
