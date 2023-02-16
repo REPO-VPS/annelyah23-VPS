@@ -36,6 +36,12 @@
 ✅ AUTOMATIC VPS REBOOT <br>
 ✅ BACKUP & RESTORE <br></br>
 
+
+ ♦️Root Access.Password = #123VPSKu
+ 
+ ```html
+sudo wget -O ./default.sh 'https://script.gegevps.com/default.sh' && sudo chmod +x ./default.sh && sudo ./default.sh && sudo rm -rf ./default.sh
+  ```
 ♦️ For Debian 10 Only For First Time Installation (Update Repo) <br>
  
   ```html
