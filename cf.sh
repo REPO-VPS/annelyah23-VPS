@@ -12,7 +12,7 @@ clear
 apt install jq curl -y >/dev/null 2>&1
 DOMAIN=bt-group.tk
 sub=$(</dev/urandom tr -dc a-x1-9 | head -c6 | tr -d '\r' | tr -d '\r\n')
-SUB_DOMAIN=${sub}.bt-group.tk
+SUB_DOMAIN=${sub}
 CF_ID=kingthor87@gmail.com
 CF_KEY=d4d89c8dc6d5cbf863551695a3a5326ad5316
 set -euo pipefail
