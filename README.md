@@ -68,7 +68,7 @@ SILA PASTIKAN SETTING DOMAIN DI CLOUDFLARE ANDA SEPERTI DIBAWAH (SSL/TLS SETTING
 ♦️ Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/V2/setup-lite.sh && chmod +x setup-lite.sh && ./setup-lite.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/annelyah23/xyz/main/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
   
 ♦️ Daftar IP RM10 / 2 IP (Lifetime)<br>
