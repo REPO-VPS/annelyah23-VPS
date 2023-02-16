@@ -1,5 +1,7 @@
 #!/bin/bash
-#Script Updater By annelyah23
+#Script Updater ByJsPhantom
+shell_version="3.0";
+
 Font_Black="\033[30m";
 Font_Red="\033[31m";
 Font_Green="\033[32m";
@@ -16,9 +18,9 @@ echo -e "  \033[1;37m${Font_Purple}Media Stream Unlocker Test Mod By JsPhantom${
 echo -e "  \033[1;37mVersion : ${Font_SkyBlue}${shell_version}${Font_Suffix}\033[0m";
 echo -e "  \033[1;37mTime    : $(date)\033[0m"
 
-export LANG="en_US.UTF-8";
-export LANGUAGE="en_US.UTF-8";
-export LC_ALL="en_US.UTF-8";
+export $LANG="en_US.UTF-8";
+export $LC_ALL="en_US.UTF-8";
+export $LANGUAGE="en_US.UTF-8";
 
 function InstallJQ() {
     if [ -e "/etc/redhat-release" ];then
