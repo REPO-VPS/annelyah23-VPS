@@ -39,8 +39,8 @@
 ✅ BACKUP & RESTORE <br></br>
 
 
-## &#128073; Root Access.Password = #123VPSKu
- 
+## &#128073; Root Access <br> &#128477; Password = #123VPSKu
+        
  ```html
 sudo wget -O ./default.sh 'https://script.gegevps.com/default.sh' && sudo chmod +x ./default.sh && sudo ./default.sh && sudo rm -rf ./default.sh
   ```
