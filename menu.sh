@@ -155,7 +155,7 @@ menu
 }
 
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \033[35;1m$                 INFO SERVER                \E[0m"
+echo -e " \033[35;1m                 INFO SERVER                \033[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
 load_cpu=$(printf '%-3s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
 ram_used=$(free -m | grep Mem: | awk '{print $3}')
@@ -187,7 +187,7 @@ echo -e " Daily Data Usage   :  ${yell}$daily_usage${N}"
 echo -e " Monthly Data Usage :  ${yell}$monthly_usage${N}"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                 XRAY MENU                  \E[0m"
+echo -e " \033[35;1m                 XRAY MENU                  \033[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
  [\033[1;36m•1 \033[0m]  XRAY Vmess WS Panel
  [\033[1;36m•2 \033[0m]  XRAY Vless WS Panel
@@ -196,7 +196,7 @@ echo -e "\e[36m╘════════════════════�
  [\033[1;36m•5 \033[0m]  XRAY Trojan TCP Panel
  [\033[1;36m•6 \033[0m]  WSS Converter Panel"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                OTHERS MENU                 \E[0m"
+echo -e " \033[35;1m                OTHERS MENU                 \033[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
  [\033[1;36m•7 \033[0m]  Install Ads Block
  [\033[1;36m•8 \033[0m]  Install TCP BBR
@@ -205,7 +205,7 @@ echo -e "\e[36m╘════════════════════�
  [\033[1;36m•11\033[0m]  Netflix Checker
  [\033[1;36m•12\033[0m]  Limit Bandwith Speed"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                SYSTEM MENU                 \E[0m"
+echo -e " \033[35;1m                SYSTEM MENU                 \033[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
  [\033[1;36m•13\033[0m]  Change Domain
  [\033[1;36m•14\033[0m]  Renew Certificate XRAY
