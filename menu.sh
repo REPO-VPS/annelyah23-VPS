@@ -155,7 +155,7 @@ menu
 }
 
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                 INFO SERVER                \E[0m"
+echo -e " \033[35;1m$                 INFO SERVER                \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
 load_cpu=$(printf '%-3s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
 ram_used=$(free -m | grep Mem: | awk '{print $3}')
