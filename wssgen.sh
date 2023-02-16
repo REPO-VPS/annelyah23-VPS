@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Geo Project
+# Auther  : JsPhantom
 # (C) Copyright 2022
 # =========================================
 clear
@@ -213,7 +213,7 @@ trojan_req() {
     echo ""
     echo "Config : trojan://${uuid}@${kumbang}:${prt}?type=ws&security=tls&host=${domain}&path=wss://${kumbang}${path}&sni=${kumbang}#XRAY_TROJAN_WSS"
     echo -e ""
-    echo -e "Autoscript By Geo Project"
+    echo -e "Autoscript By JsPhantom"
     echo -e ""
 }
 
