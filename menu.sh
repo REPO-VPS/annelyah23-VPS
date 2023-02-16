@@ -154,9 +154,9 @@ read -n 1 -s -r -p "Press any key to continue..."
 menu
 }
 
-echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                 INFO SERVER                \E[0m"
-echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
+echo -e '\033[0;33m'╒════════════════════════════════════════════╕'\033[0;33m'
+echo -e " '\033[0;37m'                 INFO SERVER                '\033[0;37m'
+echo -e '\033[0;33m'╘════════════════════════════════════════════╛'\033[0;33m'
 load_cpu=$(printf '%-3s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
 ram_used=$(free -m | grep Mem: | awk '{print $3}')
 total_ram=$(free -m | grep Mem: | awk '{print $2}')
@@ -178,9 +178,9 @@ echo -e " CPU Load           :  $load_cpu"
 echo -e " VPN Core           :  XRAY-CORE"
 echo -e " Domain             :  $domain"
 echo -e " IP Address         :  $IPVPS"
-echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
+echo -e '\033[0;34m'╒════════════════════════════════════════════╕'\033[0;34m'
 echo -e "     [ XRAY-CORE${NC} : ${status_xray} ]   [ NGINX${NC} : ${status_nginx} ]"
-echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
+echo -e '\033[0;34m'╘════════════════════════════════════════════╛'\033[0;34m'
 echo -e "      \033[1;37mMULTIPORT WEBSOCKET BY JsPhantom\033[0m"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
 echo -e " Daily Data Usage   :  ${yell}$daily_usage${N}"
