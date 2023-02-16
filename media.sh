@@ -18,9 +18,15 @@ echo -e "  \033[1;37m${Font_Purple}Media Stream Unlocker Test Mod By JsPhantom${
 echo -e "  \033[1;37mVersion : ${Font_SkyBlue}${shell_version}${Font_Suffix}\033[0m";
 echo -e "  \033[1;37mTime    : $(date)\033[0m"
 
-export $LANG="en_US.UTF-8";
-export $LC_ALL="en_US.UTF-8";
-export $LANGUAGE="en_US.UTF-8";
+uptime="$(uptime -p | cut -d " " -f 2-10)"
+ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10)
+CITY=$(curl -s ipinfo.io/city)
+WKT=$(curl -s ipinfo.io/timezone)
+IPVPS=$(curl -s ipinfo.io/ip)
+cname=$(awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo)
+cores=$(awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo)
+freq=$(awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo)
+tram=$(free -m | awk 'NR==2 {print $2}')
 
 function InstallJQ() {
     if [ -e "/etc/redhat-release" ];then
