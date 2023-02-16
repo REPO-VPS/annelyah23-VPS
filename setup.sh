@@ -198,7 +198,7 @@ echo "1.0" > /home/ver
 clear
 echo ""
 echo -e "${RB}      .-------------------------------------------.${NC}"
-echo -e "${RB}      |${NC}    ${CB}Installation Has Been Completed${NC}      ${RB}|${NC}"
+echo -e "${RB}      |${NC}    ${CB}Installation Has Been Completed${NC}         ${RB}|${NC}"
 echo -e "${RB}      '-------------------------------------------'${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
 echo -e "${RB}🚀 ${NC} ${WB}Premium Autoscript By JsPhantom ${NC} ${RB}🚀 ${NC}"
