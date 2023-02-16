@@ -19,7 +19,7 @@ WB='\e[37;1m'
 
 echo ""
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
-echo -e "      ${WB}Multiport Websocket Autoscript By wunuit${NC}"
+echo -e "      ${WB}Multiport Websocket Autoscript By JsPhantom${NC}"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e "  ${WB}»»» Protocol Service «««  |  »»» Network Protocol «««${NC}  "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
