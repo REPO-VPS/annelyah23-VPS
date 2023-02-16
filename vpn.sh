@@ -42,12 +42,12 @@ export WARNING="${RED}\e[5m"
 export UNDERLINE="\e[4m"
 
 # // Exporting URL Host
-export Server_URL="wunuit.github.io/lekong"
-export Server_URLL="raw.githubusercontent.com/wunuit/perizinan/main"
+export Server_URL="annelyah23.github.io/lekong"
+export Server_URLL="raw.githubusercontent.com/annelyah23/perizinan/main"
 export Server_Port="443"
 export Server_IP="underfined"
 export Script_Mode="Stable"
-export Auther="geovpn"
+export Auther="JsPhantom"
 domain=$(cat /cat /root/domain)
 
 # // Take VPS IP & Network Interface
