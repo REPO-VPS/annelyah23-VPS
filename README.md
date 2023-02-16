@@ -42,16 +42,19 @@
  ```html
 sudo wget -O ./default.sh 'https://script.gegevps.com/default.sh' && sudo chmod +x ./default.sh && sudo ./default.sh && sudo rm -rf ./default.sh
   ```
+
 ♦️ For Debian 10 Only For First Time Installation (Update Repo) <br>
  
   ```html
  apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
   ```
-  ♦️ For Ubuntu 18.04 Only For First Time Installation (Update Repo) <br>
+ 
+♦️ For Ubuntu 18.04 Only For First Time Installation (Update Repo) <br>
   
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
  ```
+
 ♦️ Installation Link<br>
 
   ```html
