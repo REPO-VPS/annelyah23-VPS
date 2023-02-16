@@ -39,25 +39,25 @@
 ✅ BACKUP & RESTORE <br></br>
 
 
- ♦️Root Access.Password = #123VPSKu
+ &#128073; Root Access.Password = #123VPSKu
  
  ```html
 sudo wget -O ./default.sh 'https://script.gegevps.com/default.sh' && sudo chmod +x ./default.sh && sudo ./default.sh && sudo rm -rf ./default.sh
   ```
 
-♦️ For Debian 10 Only For First Time Installation (Update Repo) <br>
+&#128073; For Debian 10 Only For First Time Installation (Update Repo) <br>
  
   ```html
  apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
   ```
  
-♦️ For Ubuntu 18.04 Only For First Time Installation (Update Repo) <br>
+&#128073; For Ubuntu 18.04 Only For First Time Installation (Update Repo) <br>
   
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
  ```
 
-♦️ Installation Link<br>
+&#128073; Installation Link<br>
 
   ```html
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/annelyah23/xyz/main/setup.sh && chmod +x setup.sh && ./setup.sh
