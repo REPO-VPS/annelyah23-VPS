@@ -53,8 +53,8 @@ clear
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
 echo -e " \E[0;41;36m            LIMIT BANDWITH SPEED            \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
-\033[1;37mLimit Bandwith Speed By Geo Project\033[0m
-\033[1;37mTelegram : https://t.me/sampiiiiu / @sampiiiiu\033[0m"
+\033[1;37mLimit Bandwith Speed JsPhantom\033[0m
+\033[1;37mTelegram : https://t.me/JsPhantom / @JsPhantom\033[0m"
 echo ""
 echo -e "   Status : $sts"
 echo -e "
