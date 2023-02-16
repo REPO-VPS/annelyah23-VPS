@@ -286,7 +286,7 @@ proxy-groups:
       - XRAY_TROJAN_TCP_${user}
       - DIRECT
 rules:
-  - MATCH,WUNUIT-AUTOSCRIPT
+  - MATCH,JsPhantom-AUTOSCRIPT
 EOF
 
 clear
