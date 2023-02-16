@@ -102,9 +102,9 @@ source /etc/os-release
 ver=$VERSION_ID
 
 #Detail
-country="ID"
+country="MY"
 state="Project"
-locality="Parit Buntar"
+locality="KK"
 organization="JsPhantom-Project"
 organizationalunit="JsPhantom-Project"
 commonname="JsPhantom-Project"
