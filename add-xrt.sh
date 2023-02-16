@@ -35,7 +35,7 @@ echo ""
 echo -e "Your IP is ${red}NOT REGISTER${NC} @ ${red}EXPIRED${NC}"
 echo ""
 echo -e "Please Contact ${green}Admin${NC}"
-echo -e "Telegram : t.me/wunuit"
+echo -e "Telegram : t.me/JsPhantom"
 exit 0
 fi
 clear
@@ -279,13 +279,13 @@ proxies:
     sni: ${sni}
     udp: true
 proxy-groups:
-  - name: wunuit-AUTOSCRIPT
+  - name: JsPhantom-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_DIRECT_${user}
       - DIRECT
 rules:
-  - MATCH,wunuit-AUTOSCRIPT
+  - MATCH,JsPhantom-AUTOSCRIPT
 EOF
 
 cat > /home/vps/public_html/$user-TRSPLICE.yaml <<EOF
@@ -429,7 +429,7 @@ proxies:
     sni: ${sni}
     udp: true
 proxy-groups:
-  - name: wunuit-AUTOSCRIPT
+  - name: JsPhantom-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_SPLICE_${user}

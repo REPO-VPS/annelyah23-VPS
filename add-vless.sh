@@ -32,7 +32,7 @@ echo ""
 echo -e "Your IP is ${red}NOT REGISTER${NC} @ ${red}EXPIRED${NC}"
 echo ""
 echo -e "Please Contact ${green}Admin${NC}"
-echo -e "Telegram : t.me/wunuit"
+echo -e "Telegram : t.me/JsPhantom"
 exit 0
 fi
 clear
@@ -293,13 +293,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: wunuit-Autoscript
+  - name: JsPhantom-Autoscript
     type: select
     proxies:
       - XRAY_VLESS_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,wunuit-Autoscript
+  - MATCH,JsPhantom-Autoscript
 EOF
 
 cat > /home/vps/public_html/$user-VLESSNTLS.yaml <<EOF
@@ -449,7 +449,7 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: wunuit-Autoscript
+  - name: JsPhantom-Autoscript
     type: select
     proxies:
       - XRAY_VLESS_NON_TLS_${user}

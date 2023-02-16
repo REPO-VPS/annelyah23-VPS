@@ -161,13 +161,13 @@ proxies:
     sni: ${domain}
     udp: true
 proxy-groups:
-  - name: wunuit-AUTOSCRIPT
+  - name: JsPhantom-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_TCP_${user}
       - DIRECT
 rules:
-  - MATCH,wunuit-AUTOSCRIPT
+  - MATCH,JsPhantom-AUTOSCRIPT
 EOF
 
 systemctl restart xray@trojan.service
@@ -192,5 +192,5 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Autoscript By wunuit"
+echo -e "Autoscript By JsPhantom"
 echo -e ""

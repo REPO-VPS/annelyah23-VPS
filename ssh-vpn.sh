@@ -105,10 +105,10 @@ ver=$VERSION_ID
 country="ID"
 state="Project"
 locality="Parit Buntar"
-organization="wunuit-Project"
-organizationalunit="wunuit-Project"
-commonname="wunuit-Project"
-email="wunuit-project@gmail.com"
+organization="JsPhantom-Project"
+organizationalunit="JsPhantom-Project"
+commonname="JsPhantom-Project"
+email="JsPhantom-project@gmail.com"
 
 # go to root
 cd

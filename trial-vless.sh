@@ -169,13 +169,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: wunuit-Autoscript
+  - name: JsPhantom-Autoscript
     type: select
     proxies:
       - XRAY_VLESS_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,wunuit-Autoscript
+  - MATCH,JsPhantom-Autoscript
 EOF
 
 cat > /home/vps/public_html/$user-VLESSNTLS.yaml <<EOF
@@ -325,13 +325,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: wunuit-Autoscript
+  - name: JsPhantom-Autoscript
     type: select
     proxies:
       - XRAY_VLESS_NON_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,wunuit-Autoscript
+  - MATCH,JsPhantom-Autoscript
 EOF
 
 systemctl restart xray@vless.service
@@ -365,5 +365,5 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Autoscript By wunuit"
+echo -e "Autoscript By JsPhantom"
 echo -e ""

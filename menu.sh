@@ -38,7 +38,7 @@ echo ""
 echo -e "Your IP is ${red}NOT REGISTER${NC} @ ${red}EXPIRED${NC}"
 echo ""
 echo -e "Please Contact ${green}Admin${NC}"
-echo -e "Telegram : t.me/wunuit"
+echo -e "Telegram : t.me/JsPhantom"
 exit 0
 fi
 clear
@@ -181,7 +181,7 @@ echo -e " IP Address         :  $IPVPS"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
 echo -e "     [ XRAY-CORE${NC} : ${status_xray} ]   [ NGINX${NC} : ${status_nginx} ]"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
-echo -e "      \033[1;37mMULTIPORT WEBSOCKET BY WUNUIT\033[0m"
+echo -e "      \033[1;37mMULTIPORT WEBSOCKET BY JsPhantom\033[0m"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
 echo -e " Daily Data Usage   :  ${yell}$daily_usage${N}"
 echo -e " Monthly Data Usage :  ${yell}$monthly_usage${N}"

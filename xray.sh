@@ -39,7 +39,7 @@ echo ""
 echo -e "Your IP is ${red}NOT REGISTER${NC} @ ${red}EXPIRED${NC}"
 echo ""
 echo -e "Please Contact ${green}Admin${NC}"
-echo -e "Telegram : t.me/wunuit"
+echo -e "Telegram : t.me/JsPhantom"
 exit 0
 fi
 clear
@@ -1056,7 +1056,7 @@ rm -rf /etc/systemd/system/xray@.service.d
 cat> /etc/systemd/system/xray.service << END
 [Unit]
 Description=XRAY-Websocket Service
-Documentation=https://wunuit-Project.net https://github.com/XTLS/Xray-core
+Documentation=https://JsPhantom-Project.net https://github.com/XTLS/Xray-core
 After=network.target nss-lookup.target
 
 [Service]

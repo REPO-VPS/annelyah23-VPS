@@ -290,7 +290,7 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: wunuit-Autoscript
+  - name: JsPhantom-Autoscript
     type: select
     proxies:
       - XRAY_TROJAN_TLS_${user}
