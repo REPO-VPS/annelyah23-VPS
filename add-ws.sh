@@ -490,7 +490,7 @@ proxy-groups:
       - XRAY_VMESS_NON_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,Geo-Autoscript
+  - MATCH,JsPhantom-Autoscript
 EOF
 
 clear
