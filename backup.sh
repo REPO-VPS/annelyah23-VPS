@@ -59,4 +59,4 @@ echo ""
 echo "If you want to restore data, please enter the link above"
 rm -rf /root/backup
 rm -r /root/$IP-$date.zip
-echo ""�������������
+echo ""
