@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<h2 align="center">
-<hr>
-🚀 XRAY Multiport Websocket By JsPhantom 🚀
-<h2><hr>
-  
-<h2 align="center"> ♦️Supported Linux Distribution♦️</h2>
-<p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"width="400"></p>
-<p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=blue"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2018&message=18.04 LTS&color=blue"></p>
-  
-<p align="center"><img src="https://img.shields.io/badge/Service-Multiport (XRAY)-orange"></p>
+<p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=%09%F0%9D%94%90%F0%9D%94%9E%F0%9D%94%B1%F0%9D%94%A5+%F0%9D%94%89%F0%9D%94%AF%F0%9D%94%9E%F0%9D%94%A8%F0%9D%94%B1%F0%9D%94%B2%F0%9D%94%AF&weight=800&size=32&duration=0.1&pause=1&color=F7CD1FFB&center=true&width=435&lines=%F0%9D%95%8A%CC%B6%CD%9F%CC%B6%F0%9D%95%94%CC%B6%CD%9F%CC%B6%F0%9D%95%A3%CC%B6%CD%9F%CC%B6%F0%9D%95%9A%CC%B6%CD%9F%CC%B6%F0%9D%95%A1%CC%B6%CD%9F%CC%B6%F0%9D%95%A5%CC%B6%CD%9F%CC%B6+%CC%B6%CD%9F%CC%B6%F0%9D%95%8F%CC%B6%CD%9F%CC%B6-%CC%B6%CD%9F%CC%B6%F0%9D%95%A3%CC%B6%CD%9F%CC%B6%F0%9D%95%92%CC%B6%CD%9F%CC%B6%F0%9D%95%AA%CC%B6%CD%9F%CC%B6" alt="Typing SVG" /></a>
+</p>
+<p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=%09%F0%9D%94%90%F0%9D%94%9E%F0%9D%94%B1%F0%9D%94%A5+%F0%9D%94%89%F0%9D%94%AF%F0%9D%94%9E%F0%9D%94%A8%F0%9D%94%B1%F0%9D%94%B2%F0%9D%94%AF&weight=800&size=32&duration=0.1&pause=1&color=F7CD1FFB&center=true&width=435&lines=%F0%9F%85%B9%F0%9F%86%82%F0%9F%85%BF%F0%9F%85%B7%F0%9F%85%B0%F0%9F%85%BD%F0%9F%86%83%F0%9F%85%BE%F0%9F%85%BC" alt="Typing SVG" /></a>
 
-</b>
-</b>
+
+<p>
+  
+
+  
   
 ## ⏩ XRAY MULTIPORT WEBSOCKET V2 AUTOSCRIPT DETAILS ⏪
 <b>
