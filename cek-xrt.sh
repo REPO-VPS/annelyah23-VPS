@@ -8,11 +8,14 @@
 clear
 red='\e[1;31m'
 green='\e[0;32m'
+yell='\e[1;33m'
+tyblue='\e[1;36m'
+purple='\e[0;35m'
 NC='\e[0m'
 echo -n > /tmp/other.txt
 data=( `cat /usr/local/etc/xray/xtrojan.json | grep '^###' | cut -d ' ' -f 2 | sort | uniq`);
 echo -e "\033[0;34m╔===========================================╗\033[0m"
-echo -e "\e[0;32m  |    XRAY Trojan TCP XTLS User Login        |   \033[0m"
+echo -e "\e[0;35m  |      XRAY Trojan TCP XTLS User Login        |   \033[0m"
 echo -e "\033[0;34m╚===========================================╝\033[0m"
 for akun in "${data[@]}"
 do
