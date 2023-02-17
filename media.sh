@@ -14,19 +14,9 @@ Font_Suffix="\033[0m";
 
 
 clear;
-echo -e "  \033[1;37m${Font_Purple}Media Stream Unlocker Test Mod By JsPhantom${Font_Suffix}\033[0m";
-echo -e "  \033[1;37mVersion : ${Font_SkyBlue}${shell_version}${Font_Suffix}\033[0m";
-echo -e "  \033[1;37mTime    : $(date)\033[0m"
-
-uptime="$(uptime -p | cut -d " " -f 2-10)"
-ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10)
-CITY=$(curl -s ipinfo.io/city)
-WKT=$(curl -s ipinfo.io/timezone)
-IPVPS=$(curl -s ipinfo.io/ip)
-cname=$(awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo)
-cores=$(awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo)
-freq=$(awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo)
-tram=$(free -m | awk 'NR==2 {print $2}')
+echo -e " \033[36mMedia Stream Unlocker Test Mod By ${NC}\033[33mJsPhantom\033[0m"
+echo -e " \033[1;37mVersion : ${NC}\033[33m${shell_version}${Font_Suffix}\033[0m"
+echo -e " \033[32mTime    : $(date)\033[0m"
 
 function InstallJQ() {
     if [ -e "/etc/redhat-release" ];then
