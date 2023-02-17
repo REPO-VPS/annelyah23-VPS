@@ -92,7 +92,7 @@ domain=$(cat /root/domain)
 MYIP2=$(wget -qO- ipv4.icanhazip.com);
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		echo -e "\033[0;34m╔============================================╗\033[0m"
-        echo -e "\033[35;1m    | Add XRAY Vless WS Account |    \033[0m"
+        echo -e "\033[35;1m           Add XRAY Vless WS Account     \033[0m"
         echo -e "\033[0;34m╚============================================╝\033[0m"
 
 		read -rp "Username : " -e user
@@ -100,8 +100,8 @@ until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 
 		if [[ ${CLIENT_EXISTS} == '1' ]]; then
 clear
-		    echo -e "\033[0;34m╔============================================╗\033[0m"
-            echo -e "\033[35;1m     | Add XRAY Vless Account |      \033[0m"
+		     echo -e "\033[0;34m╔============================================╗\033[0m"
+            echo -e "\033[35;1m      Add XRAY Vless Account       \033[0m"
             echo -e "\033[0;34m╚============================================╝\033[0m"
 			echo ""
 			echo "A client with the specified name was already created, please choose another name."
