@@ -5,16 +5,18 @@
 # Auther  : JsPhantom
 # (C) Copyright 2022
 # =========================================
+yell='\e[1;33m'
+red='\e[1;31m'
 P='\e[0;35m'
 B='\033[0;36m'
 G='\033[0;32m'
 NC='\e[0m'
 N='\e[0m'
 clear
-echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                 DNS CHANGER                \E[0m"
-echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
-\033[1;37mDNS Changer By JsPhantom\033[0m
+echo -e "\e[36m╔===========================================╗\033[0m"
+echo -e " \e[0;35m                DNS CHANGER                \033[0m"
+echo -e "\e[36m╚===========================================╝\033[0m
+\033[0;32mDNS Changer By${NC} \e[1;33mJsPhantom\033[0m
 \033[1;37mTelegram : https://t.me/JsPhantom / @JsPhantom\033[0m"
 dnsfile="/root/dns"
 if test -f "$dnsfile"; then
@@ -22,11 +24,10 @@ udns=$(cat /root/dns)
 echo -e ""
 echo -e "   Active DNS : \033[1;37m$udns\033[0m"
 fi
-echo -e "
- [\033[1;36m•1 \033[0m]  Temporary DNS
- [\033[1;36m•2 \033[0m]  Permanent DNS
- [\033[1;36m•3 \033[0m]  Reset DNS To Default
- [\033[1;36m•4 \033[0m]  Back To Main Menu"
+ echo -e "[\033[1;36m•1 \033[0m]  \033[0;32mTemporary DNS\033[0m"
+ echo -e "[\033[1;36m•2 \033[0m]  \033[0;32mPermanent DNS\033[0m"
+ echo -e "[\033[1;36m•3 \033[0m]  \033[0;32mReset DNS To Default\033[0m"
+ echo -e "[\033[1;36m•4 \033[0m]  \033[0;32mBack To Main Menu\033[0m"
 echo ""
 echo -e "\033[1;37mPress [ Ctrl+C ] • To-Exit-Script\033[0m"
 echo ""
@@ -116,4 +117,4 @@ echo "Please enter an correct number"
 clear
 dns
 ;;
-esac�
+esac
