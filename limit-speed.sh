@@ -7,6 +7,9 @@
 # =========================================
 red='\e[1;31m'
 green='\e[0;32m'
+yell='\e[1;33m'
+tyblue='\e[1;36m'
+purple='\e[0;35m'
 NC='\e[0m'
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
 Info="${Green_font_prefix}[ON]${Font_color_suffix}"
@@ -50,17 +53,16 @@ else
 sts="${Error}"
 fi
 clear
-echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m            LIMIT BANDWITH SPEED            \E[0m"
-echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
-\033[1;37mLimit Bandwith Speed JsPhantom\033[0m
+echo -e "\e[36m╔===========================================╗\033[0m"
+echo -e " \e[0;35m            LIMIT BANDWITH SPEED            \033[0m"
+echo -e "\e[36m╚===========================================╝\033[0m
+\e[1;31mLimit Bandwith Speed${NC} \e[1;33mJsPhantom\033[0m
 \033[1;37mTelegram : https://t.me/JsPhantom / @JsPhantom\033[0m"
 echo ""
 echo -e "   Status : $sts"
-echo -e "
- [\033[1;36m•1 \033[0m]  Start Limit
- [\033[1;36m•2 \033[0m]  Stop Limit
- [\033[1;36m•3 \033[0m]  Back To Main Menu"
+echo -e "[\033[1;36m•1 \033[0m]  ${NC}\e[0;32mStart Limit\033[0m"
+echo -e "[\033[1;36m•2 \033[0m]  ${NC}\e[0;32mStop Limit\033[0m"
+echo -e "[\033[1;36m•3 \033[0m]  ${NC}\e[0;32mBack To Main Menu\033[0m"
 echo ""
 echo -e " \033[1;37mPress [ Ctrl+C ] • To-Exit-Script\033[0m"
 echo ""
