@@ -87,7 +87,7 @@ domain=$(cat /root/domain)
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		echo -e "\033[0;34m╔============================================╗\033[0m"
-        echo -e "\033[35;1m | Add XRAY Trojan TCP XTLS Account | \033[0m"
+        echo -e "\033[35;1m       Add XRAY Trojan TCP XTLS Account  \033[0m"
         echo -e "\033[0;34m╚============================================╝\033[0m"
 		read -rp "Username : " -e user
 		CLIENT_EXISTS=$(grep -w $user /usr/local/etc/xray/xtrojan.json | wc -l)
@@ -95,7 +95,7 @@ until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		if [[ ${CLIENT_EXISTS} == '1' ]]; then
 clear
 		echo -e "\033[0;34m╔============================================╗\033[0m"
-        echo -e "\033[35;1m | Add XRAY Trojan TCP XTLS Account | \033[0m"
+        echo -e "\033[35;1m  Add XRAY Trojan TCP XTLS Account  \033[0m"
         echo -e "\033[0;34m╚============================================╝\033[0m"
 		echo ""
 		echo "A client with the specified name was already created, please choose another name."
